@@ -1,0 +1,271 @@
+:root {
+  --primary-color: #f0b90b;
+  --secondary-color: #1e2329;
+  --background-color: #0b0e11;
+  --text-color: #eaecef;
+  --hover-color: #fcd535;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--secondary-color);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo:hover {
+  color: var(--hover-color);
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 2rem;
+}
+
+.nav-links a {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: var(--hover-color);
+}
+
+.nav-links .active {
+  color: var(--primary-color);
+}
+
+.nav-logo {
+  width: 4%;
+  height: auto;
+}
+
+.hero {
+  height: 79.2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(to right, rgba(11, 14, 17, 0.9), rgba(11, 14, 17, 0.9)),
+    url('assets/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 2rem;
+  transition: height 0.3s ease;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.8rem 2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn.primary {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+.btn.secondary {
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(240, 185, 11, 0.3);
+}
+
+.about {
+  padding: 8rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: min-height 0.3s ease;
+}
+
+.about h2 {
+  margin-bottom: 1.5rem;
+}
+
+.about p {
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.about h2 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: var(--secondary-color);
+  padding: 2rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.copyright-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.social-links a {
+  color: var(--text-color);
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: var(--hover-color);
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-links a {
+  color: var(--text-color);
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: var(--hover-color);
+}
+
+.social-links.fixed-bottom-left {
+  position: absolute;
+  left: 2rem;
+  bottom: 2rem;
+  z-index: 100;
+  background-color: rgba(30, 35, 41, 0.9);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  gap: 1rem;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+.social-links.fixed-bottom-left a {
+  color: var(--text-color);
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-links.fixed-bottom-left a:hover {
+  color: var(--hover-color);
+}
+
+footer {
+  background-color: var(--secondary-color);
+  padding: 2rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.copyright-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+/* Flashing animation */
+@keyframes flash {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.flashing-title {
+  animation: flash 1s infinite;
+}
