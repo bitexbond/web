@@ -95,25 +95,23 @@ nav {
 
   /* Footer */
   footer {
-    flex-direction: row;
+    flex-direction: column;
     padding: 1rem;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
   }
 
   .copyright-container {
-    position: static;
-    transform: none;
     text-align: center;
     white-space: nowrap;
-    order: 2;
-    flex: 1 1 100%;
+    order: 1;
   }
 
   .social-links {
-    order: 1;
+    order: 2;
     margin: 0;
+    display: flex;
+    justify-content: center;
   }
 
   /* Social icons */
