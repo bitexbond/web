@@ -74,10 +74,49 @@ nav {
 }
 
 @media (max-width: 768px) {
+  /* Navigation */
+  nav {
+    padding: 0.5rem 1rem;
+  }
+  
   .nav-logo {
     width: 8%;
   }
   
+  .nav-links li {
+    margin-left: 1rem;
+  }
+
+  /* Buttons */
+  .btn {
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  /* Footer */
+  footer {
+    flex-direction: row;
+    padding: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .copyright-container {
+    position: static;
+    transform: none;
+    text-align: center;
+    white-space: nowrap;
+    order: 2;
+    flex: 1 1 100%;
+  }
+
+  .social-links {
+    order: 1;
+    margin: 0;
+  }
+
+  /* Social icons */
   .social-links a {
     font-size: 0.75rem;
   }
