@@ -114,6 +114,10 @@ nav {
     justify-content: center;
   }
 
+  .footer-project {
+    order: 3;
+  }
+
   /* Social icons */
   .social-links a {
     font-size: 0.75rem;
@@ -300,6 +304,19 @@ footer {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+
+/* Link to the BitEX-incubated USDB project */
+.footer-project {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.footer-project:hover {
+  color: var(--hover-color);
 }
 
   .btn {
