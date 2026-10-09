@@ -1,0 +1,10 @@
+# BitEX
+
+> BitEX is a next-generation crypto bond exchange operated by Hong Kong BitExchange Company Limited (registered 2013). It is building a secure, fast, and user-friendly bond trading platform that improves the trading mechanism of bonds, the security and convenience of storage, and gives bonds the payment function of currency.
+
+Key facts: operated by Hong Kong BitExchange Company Limited (registered 2013) · domain bitex.bond · incubates the USDBOND (USDB) project.
+
+## Links
+
+- [USDBOND (USDB)](https://usdb.bitex.bond/): BitEX-incubated on-chain stable equity — a 1940 Act registered investment company share pegged at a constant $1.00 NAV, airdropping US Treasury yield daily 365 days a year.
+- [Sitemap](https://bitex.bond/sitemap.xml)
